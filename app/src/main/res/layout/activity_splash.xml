@@ -4,29 +4,29 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <TextView
-        android:id="@+id/Device_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center_horizontal"/>
-   <TextView
-       android:layout_marginLeft="20dp"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="Enter website Ip Address"/>
-    <EditText
-        android:id="@+id/ip"
-        android:padding="10dp"
-        android:layout_margin="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter webisite ip Address"/>
-    <Button
-        android:id="@+id/Submit"
-        android:text="Submit"
-        android:layout_margin="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <!--<TextView-->
+        <!--android:id="@+id/Device_id"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:gravity="center_horizontal"/>-->
+   <!--<TextView-->
+       <!--android:layout_marginLeft="20dp"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:text="Enter website Ip Address"/>-->
+    <!--<EditText-->
+        <!--android:id="@+id/ip"-->
+        <!--android:padding="10dp"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Enter webisite ip Address"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/Submit"-->
+        <!--android:text="Submit"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
 
 </LinearLayout>

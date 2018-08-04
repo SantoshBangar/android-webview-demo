@@ -12,9 +12,9 @@ public class MyAppWebViewClient extends WebViewClient {
 
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-//        return super.shouldOverrideUrlLoading(view, url);
-        if(Uri.parse(url).getHost().endsWith(SplashScreen.ipaddress));
-        return false;
+        return super.shouldOverrideUrlLoading(view, url);
+//        if(Uri.parse(url).getHost().endsWith(SplashScreen.ipaddress));
+//        return false;
 
     }
 //    Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse(url));
